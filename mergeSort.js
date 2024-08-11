@@ -31,6 +31,6 @@ const myArray1 = [3, 2, 1, 13, 8, 5, 0, 1];
 const myArray2 = [105, 79, 100, 110];
 const myArray3 = [3, 1, 2, 13, 8];
 
-console.log(mergeSort(myArray1));
-console.log(mergeSort(myArray2));
-console.log(mergeSort(myArray3));
+console.log(mergeSort(myArray1)); //[0, 1, 1, 2, 3, 5, 8, 13]
+console.log(mergeSort(myArray2)); //[79, 100, 105, 110]
+console.log(mergeSort(myArray3)); //[1, 2, 3, 8, 13]
